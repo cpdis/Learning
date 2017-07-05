@@ -12,7 +12,7 @@ _Start_: 7/5/17
 _End_: 
 ---
 
-## Introduction and Overview
+# Introduction and Overview
 What were the major causes of the software crisis?
 - Increasing product complexity 
 - Slow programmer productivity growth
@@ -158,3 +158,47 @@ Classic mistakes:
         - too much reliance on new technology
     - switching tools mid-development
     - no version control
+
+# Version Control
+A system that allows you to manage multiple revisions of the same information.
+
+Why is VCS useful?
+- Enforces discipline
+- Archives versions
+- Maintain historical information
+- Enable collaboration
+- Recover from accidental deletions or edits
+- Conserve disk space
+
+Don't add executable files or large files in version control system.
+
+### Essential Actions
+- Add
+- Commit
+- Update
+
+Two main types:
+- Centralized
+- Decentralized
+
+## Introduction to GIT
+### GIT Workflow
+- workspace (working directory)
+    - modified
+    - `git add` 
+- index (stage)
+    - staged
+    - `git commit` to store in local repository
+    - commit and add with `git commit -a`
+    - `git diff` compares staging and working directory
+- local repository (HEAD)
+    - committed
+    - `git push` pushes change to remote repository
+    - `git diff HEAD` compares what is in the local repository (HEAD) and the working directory
+- remote repository
+    - `git clone` to create a local repository
+    - `git fetch` gets files from remote and puts them in local repository (but not working directory)
+    - `git merge` merges what is in the local repository (HEAD) with the working directory
+    - `git pull` combines `git fetch` and `git merge`
+
+`git branch` if you want to make changes or experiment without changing original files or project. `git branch myNewBranch` will create a new branch (separate from `master`). `git checkout -b myNewBranch` will do the same thing. `git merge` will merge the current branch with whatever other branch is specified (such as `master`). `git branch -d myNewBranch` will delete that `myNewBranch`. Switch to another branch with `git checkout myNewBranch`.
