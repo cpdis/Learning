@@ -202,3 +202,11 @@ Two main types:
     - `git pull` combines `git fetch` and `git merge`
 
 `git branch` if you want to make changes or experiment without changing original files or project. `git branch myNewBranch` will create a new branch (separate from `master`). `git checkout -b myNewBranch` will do the same thing. `git merge` will merge the current branch with whatever other branch is specified (such as `master`). `git branch -d myNewBranch` will delete that `myNewBranch`. Switch to another branch with `git checkout myNewBranch`.
+
+# Requirements and Prototyping
+Customer/stakeholders provide a description of what they want the system to do.
+
+Requirements engineering (RE) is the process of establishing the services that the customer requires from the software system. In addition, requirments engineering also has to do with the constraints under which the system operates and is developed. Software Requirement Specification (SRS) is the final product of requirement engineering.
+
+Software is the abstract description of a set of computations that becomes concrete, and therefore useful only when software is run on hardware.
+- *software* + *hardware* + *context*
