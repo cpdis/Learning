@@ -208,5 +208,108 @@ Customer/stakeholders provide a description of what they want the system to do.
 
 Requirements engineering (RE) is the process of establishing the services that the customer requires from the software system. In addition, requirments engineering also has to do with the constraints under which the system operates and is developed. Software Requirement Specification (SRS) is the final product of requirement engineering.
 
-Software is the abstract description of a set of computations that becomes concrete, and therefore useful only when software is run on hardware.
+Software is the abstract description of a set of computations that becomes concrete, and therefore useful only when software is run on hardware for a purpose.
 - *software* + *hardware* + *context*
+
+Quality = f(software, purpose)
+
+Requirements engineering is mostly about identifying the purpose of the software. For the most part, this is an extremely hard task.
+- sheer complexity of the purpose/requirements
+- often, people don't know what they want until you shown them
+- changing requirements
+- multiple stakeholders
+
+Classical definition of requirements engineering: a *set of activities* concerned with *identifying and communicating* the *purpose* of a software-intensive system, and the *context* in which it will be used. Hence, RE acts as the bridge between the *real world needs* of users, customers, and other *constituencies* affected by a software system, and the *capabilities and opportunities* afforded by software-instensive technologies.
+
+- *set of activities*: not a phase or a stage
+- *identifying and communicating*: comminication is as important as analysis
+- *purpose*: Quality means fitness-for-purpose. Cannot say anything about quality unless you understand the purpose.
+- *context*: Designers need to know how and where the system will be used.
+- *real world needs*: requirements are partly about what is needed...
+- *constituencies*: needed to identify all the stake holders-not just the customer and the user
+- *capabilities and opportunities*: ...and partly about what is possible
+
+What are requirements?
+| Application Domain | Machine Domain | Shared        |
+| :----------------: | :-------------:| :------------:|
+| Domain properties  | Computer       | Specification |
+| Requirements       | Program        |               |
+
+**Functional requirements**
+- a systems functional properties
+
+**Non-functional requirements**
+- a systems non-functional properties
+
+**User requirements**
+- written for the customer
+- often in natural language with no technical details
+
+**System requirements**
+- written for developers
+- detailed functional and non-functional requirements
+- clearly and more rigorously specified
+
+Where do requirements come from?
+- Stakeholders
+- Application domain
+- Documentation
+
+Elicitation problems:
+- thin spread of domain knowledge
+- knowledge is tacit
+- limited observability
+- bias
+
+## Techniques
+Traditional techniques for requirements elicitation:
+- background reading
+    - read existing documents
+    - used when not familiar with organization
+    - often out of sync with reality
+- hard data and samples
+    - choose which data (facts and figures)
+    - choose correct population
+- interviews
+    - structured or open ended
+    - collect rich set of information
+    - requires special skills
+- surveys
+    - quickly collect information from a large number of people
+- meetings
+    - summarization of findings
+    - confirm or refute what has been found so far
+
+Other techniques:
+- collaborative
+    - brainstorming
+- social approaches
+    - ethnography
+- cognitive science
+
+## Modeling requirements
+Modeling enterprises:
+- goals and objectives
+- organizational structure
+- task and dependencies
+- agents, roles, intentionality
+
+Modeling information and behaviors:
+- information structure
+- behavioral view
+    - scenarios and use cases
+    - state machine models
+    - sequence diagrams
+    - information flow
+- time/sequencing requirements
+
+Modeling system qualities.
+
+**Requirements Engineering Process**
+Elicitation -> Negotiation -> Modeling -> Analysis 
+
+**Software Requirements Specification (SRS)**
+- simple
+- testable
+- organized
+- numbered
